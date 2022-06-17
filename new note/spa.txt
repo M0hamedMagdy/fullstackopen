@@ -1,0 +1,13 @@
+
+title spa
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over browser:
+browser sends a copy of the created note to the server
+end note over 
+note over server:
+server adds the note to its json and sends a message of success
+end note 
+server-->browser: HTTP 201 created {"message":"note_created"}
+
+
+
