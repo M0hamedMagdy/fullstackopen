@@ -1,0 +1,9 @@
+html,
+body {
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+input {
+  display: block;
+}
